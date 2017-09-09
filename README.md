@@ -12,4 +12,4 @@ sketch\testFileSeparation.ino.cpp.o:(.text.setup+0xc): undefined reference to `D
 sketch\testFileSeparation.ino.cpp.o: In function `HardwareSerial::begin(unsigned long)':
 ```
 
-As it turned out in one Arduino IDE versions there was a change that only `src/*` subdirs are scanned for `.cpp` files. There was [a live-saving post on Arduino forums](https://forum.arduino.cc/index.php?topic=445230.msg3064170#msg3064170) that nailed the issue, so big thanks to **pert**. 👌
+As it turned out in one Arduino IDE versions there was a change that only `src/*` subdirectories are scanned for `.cpp` files. There was [a live-saving post on Arduino forums](https://forum.arduino.cc/index.php?topic=445230.msg3064170#msg3064170) that nailed the issue, so big thanks to **pert**. 👌
