@@ -1,6 +1,6 @@
 
-#include "Arduino.h"
 #include "./Dummy.h"
+#include "Arduino.h"
 
 Dummy::Dummy() {
 	Serial.println( "Constructor!" );
