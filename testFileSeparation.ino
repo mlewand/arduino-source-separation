@@ -1,14 +1,13 @@
 
 #include "./src/Dummy/Dummy.h"
 
-Dummy* instance = nullptr;
+Dummy dummyInstance = Dummy();
 
 void setup() {
 	Serial.begin( 115200 );
-	instance = new Dummy();
 }
 
 void loop() {
-  instance->print();
-  delay( 1500 );
+	dummyInstance.print();
+	delay( 1500 );
 }
