@@ -1,5 +1,5 @@
 
-#include "./libs/Dummy/Dummy.h"
+#include "./src/Dummy/Dummy.h"
 
 Dummy* instance = nullptr;
 
